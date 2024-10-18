@@ -82,15 +82,16 @@ footer {
 .input-inset{
     font-size: 16px;
     line-height: 1;
-    background: #FFFFFF;
+    background: #ffffff00;
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'><path fill='%23838D99' d='M13.22 14.63a8 8 0 1 1 1.41-1.41l4.29 4.29a1 1 0 1 1-1.41 1.41l-4.29-4.29zm-.66-2.07a6 6 0 1 0-8.49-8.49 6 6 0 0 0 8.49 8.49z'></path></svg>");
     background-repeat: no-repeat;
     background-position: 10px 5px;
     background-size: 15px 15px;
+    color: white;
     border: 1px solid #C5CBD5;
-    box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.20);
+    box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.246);
     border-radius: 8px;
-    width: 60px;
+    width: 129px;
     padding: .2em 1em .2em 2em;
     } 
     

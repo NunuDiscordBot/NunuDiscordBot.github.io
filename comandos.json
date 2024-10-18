@@ -21,7 +21,7 @@
     },
     {
         "command": "n!simp",
-        "description": "Muestra tu nivel de SIMP o el de la presona que menciones.",
+        "description": "Muestra tu nivel de SIMP o el de la persona que menciones.",
         "usage": "n!simp o n!simp @user"
     },
     {
