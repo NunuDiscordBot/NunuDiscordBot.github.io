@@ -18,6 +18,7 @@
     <meta name="twitter:description" content="Descubre los comandos útiles de Nunu Bot para gestionar tu servidor.">
     <meta name="twitter:image" content="logo.png">
     <script src="https://kit.fontawesome.com/974e75b81c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -33,6 +34,10 @@
     <main>
         <section>
             <h2>Comandos</h2>
+            <!-- <h3>Proximamente.</h3> -->
+            <!-- <p>- <strong>!comando1</strong>: Descripción del comando 1</p>
+            <p>- <strong>!comando2</strong>: Descripción del comando 2</p>
+            <p>- <strong>!comando3</strong>: Descripción del comando 3</p> -->
             <div class="container">
                 <div class="card shadow my-5">
                   <div class="card-body">
@@ -43,17 +48,47 @@
                     <table class="table table-searchable table-striped table-bordered table-hover table-responsive">
                         <thead>
                           <tr>
-                            <th>command</th>
-                            <th>Description</th>
-                            <th>Usage</th>
-                            <th>Action</th>
+                            <th>Comando</th>
+                            <th>Descripcion</th>
+                            <th>Uso</th>
+                            <th>Accion</th>
                           </tr>
                         </thead>
-                        <tbody id="command-table-body">
-                          <!-- Aquí se insertarán dinámicamente los comandos -->
+                        <tbody>
+                          <tr>
+                            <td>n!help</td>
+                            <td>Muestra los comandos y sus descripciones.</td>
+                            <td>n!help</td>
+                            <td data-searchable="false">
+                              <button type="button" onclick="copyToClipboard(this)">
+                                <i class="fa-regular fa-copy"></i>
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>n!quiz</td>
+                            <td>Inicia un juego de adivinanza.</td>
+                            <td>n!quiz</td>
+                            <td data-searchable="false">
+                              <button type="button" onclick="copyToClipboard(this)">
+                                <i class="fa-regular fa-copy"></i>
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>n!ship</td>
+                            <td>Calcula tu porcentaje de amor con otra persona</td>
+                            <td>n!ship @user1 @user2</td>
+                            <td data-searchable="false">
+                              <button type="button" onclick="copyToClipboard(this)">
+                                <i class="fa-regular fa-copy"></i>
+                              </button>
+                            </td>
+                          </tr>
                         </tbody>
                       </table>
                   </div>
+                  <!-- <div class="card-footer"></div> -->
                 </div>
             </div>
         </section>
@@ -66,7 +101,5 @@
     <footer>
         <p>© 2024 Nunu Bot | Creado por Pome</p>
     </footer>
-
-    <script src="script.js"></script> <!-- Archivo JavaScript separado -->
 </body>
 </html>
