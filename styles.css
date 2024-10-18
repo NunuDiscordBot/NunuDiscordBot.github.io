@@ -78,6 +78,8 @@ footer {
 
 /* TABLE CSS */
 
+
+
 .input-inset{
     font-size: 16px;
     line-height: 1;
@@ -91,16 +93,17 @@ footer {
     border-radius: 8px;
     width: 60px;
     padding: .2em 1em .2em 2em;
-} 
+    } 
     
-.input-inset::placeholder{
-    color: #838D99;
-}
+    .input-inset::placeholder{
+      color: #838D99;
+    }
     
-.input-inset:focus {
-    outline: none;
-    border: 1px solid #84A2FA;
-}
+    .input-inset:focus {
+      outline: none;
+      border: 1px solid #84A2FA;
+    }
+
 
 
 form label {
