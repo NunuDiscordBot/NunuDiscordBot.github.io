@@ -33,5 +33,25 @@
         "command": "n!facha",
         "description": "Calcula tu nivel de facha o el de la persona que menciones.",
         "usage": "n!facha o n!facha @user"
+    },
+    {
+        "command": "n!status",
+        "description": "Responde el estado actual del servidor de League of Legends en LAS.",
+        "usage": "n!status"
+    },
+    {
+        "command": "n!stats",
+        "description": "Muestra informacion de un perfil de league of legends.",
+        "usage": "n!stats NICK#1234"
+    },
+    {
+        "command": "n!champ",
+        "description": "Muestra informacion sobre un campeon de League of legends.",
+        "usage": "n!champ Brand"
+    },
+    {
+        "command": "n!random",
+        "description": "Elije un campeon aleatorio, runas aleatorias y una linea aleatoria.",
+        "usage": "n!random"
     }
 ]
