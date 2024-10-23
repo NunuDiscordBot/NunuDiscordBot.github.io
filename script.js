@@ -1,12 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const [form] = document.forms;
+  const form = document.getElementById('searchForm');  // Usamos el ID del formulario directamente
+  const searchBox = document.getElementById('searchBox');
   const feedback = document.querySelector('.feedback');
   const tableBody = document.getElementById('command-table-body');
 
   // Búsqueda en la tabla
-  form.searchBox.addEventListener('input', e => {
+  searchBox.addEventListener('input', e => {
     const term = e.target.value.toLowerCase();
-    const rows = [...tableBody.rows];
+    const rows = Array.from(tableBody.rows);  // Convertir NodeList a Array
     let resultCount = 0;
 
     rows.forEach(row => {
@@ -21,10 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
         cell.classList.toggle('is-match', term && value.includes(term));
       });
 
-      row.classList.toggle('is-hidden', !isFound);
+      row.classList.toggle('is-hidden', !isFound);  // Oculta las filas que no coinciden
       resultCount += isFound ? 1 : 0;
     });
 
+    // Actualiza el mensaje de retroalimentación
     feedback.textContent = term
       ? resultCount === 1
         ? 'Showing 1 result'
@@ -34,31 +36,39 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Cargar comandos desde JSON
   fetch('./comandos.json')
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Error al cargar el archivo JSON');
+      }
+      return response.json();
+    })
     .then(data => {
       data.forEach(command => {
         const row = document.createElement('tr');
         row.innerHTML = `
+          <td data-searchable="false">
+            <button type="button" onclick="copyToClipboard(this)">
+              <i class="fa-regular fa-copy icon"></i>
+            </button>
+          </td>
           <td>${command.command}</td>
           <td>${command.description}</td>
           <td>${command.usage}</td>
-          <td data-searchable="false">
-            <button type="button" onclick="copyToClipboard(this)">
-              <i class="fa-regular fa-copy"></i>
-            </button>
-          </td>
         `;
         tableBody.appendChild(row);
       });
     })
-    .catch(error => console.error('Error al cargar el archivo JSON:', error));
+    .catch(error => {
+      console.error('Error al cargar el archivo JSON:', error);
+      feedback.textContent = 'Error loading commands';
+    });
 });
 
 // Función para copiar al portapapeles y cambiar el icono
 function copyToClipboard(button) {
-  const firstTd = button.closest('tr').querySelector('td');
+  const commandTd = button.closest('tr').querySelectorAll('td')[1]; // Segundo td (comando)
   const tempInput = document.createElement('input');
-  tempInput.value = firstTd.textContent;
+  tempInput.value = commandTd.textContent;
   document.body.appendChild(tempInput);
   tempInput.select();
   document.execCommand('copy');
@@ -75,6 +85,7 @@ function copyToClipboard(button) {
     button.classList.remove('copied');
   }, 2000);
 }
+
 // HISTEREGG 
 console.warn("Nunu, el Bot de la Nieve Eterna: \nEn un rincón lejano de los servidores de Discord, donde los canales se entrelazan como montañas de datos y los roles giran como copos de nieve, nació Nunu, el bot de la nieve eterna. Al principio, Nunu era solo una idea, un simple comando n!help flotando en el frío vacío de código inexplorado. Pero con el tiempo, fue ganando fuerza, sus líneas de código se tejieron con precisión y su propósito se hizo claro: ayudar a los servidores a mantenerse organizados y a sus miembros felices.")
 

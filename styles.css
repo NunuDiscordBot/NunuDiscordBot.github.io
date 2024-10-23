@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,13 +8,14 @@ body {
     align-items: center;
     background-color: #2c2f33; /* Fondo oscuro */
     color: #ffffff; /* Texto blanco */
+    line-height: 1.6;
 }
 
 header {
-    background-color: #23272a; /* Fondo del header oscuro */
+    background-color: #23272a;
     width: 100%;
-    text-align: center;
-    position: relative;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .header-container {
@@ -27,135 +28,134 @@ header {
 }
 
 .invite-button {
-    background-color: #7289da; /* Botón azul estilo Discord */
+    background-color: #7289da;
     color: white;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 30px;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .invite-button:hover {
-    background-color: #677bc4; /* Hover más claro para el botón */
-}
-
-main {
-    margin: 20px;
-    text-align: center;
+    background-color: #677bc4;
+    transform: translateY(-2px);
 }
 
 h1 {
-    color: #ffffff; /* Texto blanco */
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
-section {
-    margin-top: 30px;
-}
-
-section h2 {
-    color: #7289da; /* Títulos en color azul estilo Discord */
-    margin-bottom: .5em;
-}
-
-a {
-    color: #7289da;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background-color: #23272a; /* Fondo del footer oscuro */
-    color: white;
+main {
     width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #7289da;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.info {
+    background-color: #23272a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info p {
+    margin: 0;
+}
+
+.container {
+    background-color: #23272a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #2f3136;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 15px;
     text-align: center;
-    padding: 10px 0;
-    bottom: 0;
-}
-
-/* TABLE CSS */
-
-
-
-.input-inset{
-    font-size: 16px;
-    line-height: 1;
-    background: #ffffff00;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'><path fill='%23838D99' d='M13.22 14.63a8 8 0 1 1 1.41-1.41l4.29 4.29a1 1 0 1 1-1.41 1.41l-4.29-4.29zm-.66-2.07a6 6 0 1 0-8.49-8.49 6 6 0 0 0 8.49 8.49z'></path></svg>");
-    background-repeat: no-repeat;
-    background-position: 10px 5px;
-    background-size: 15px 15px;
-    color: white;
-    border: 1px solid #C5CBD5;
-    box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.246);
-    border-radius: 8px;
-    font-weight: 500;
-    width: 130px;
-    padding: .2em .6em .2em 2em;
-    margin-bottom: 1em;
-    
-    } 
-    
-    .input-inset::placeholder{
-      color: #838D99;
-    }
-    
-    .input-inset:focus {
-      outline: none;
-      border: 1px solid #84A2FA;
-    }
-
-
-
-form label {
-  cursor: pointer;
-}
-
-.table-searchable .is-hidden {
-  display: none;
-}
-
-.table-searchable td[data-searchable="false"] {
-}
-
-.table {
-    margin: auto;
-}
-
-th, td {
-    padding: 10px;
 }
 
 th {
-    color: #7289da;
+    background-color: #7289da;
+    color: white;
+    text-transform: uppercase;
 }
 
-td > button {
-    background-color: transparent;
+td {
+    background-color: #3a3d42;
+    color: #ffffff;
+}
+
+td button {
+    background: transparent;
     color: #7289da;
-    width: 26px;
-    height: 23px;
-    border: 0;
     font-size: 20px;
-    transition: color 0.3s ease;
+    border: none;
     cursor: pointer;
+    transition: color 0.3s ease;
 }
 
-td > button.copied {
-    color: #43b581; /* Cambiar el color a verde cuando se copie */
-}
-
-td > button i.fa-check {
-    font-family: 'Font Awesome 5 Free'; /* Font Awesome */
-    font-weight: 900;
+td button:hover {
+    color: #43b581;
 }
 
 
-/*   */
+.table-searchable .is-hidden {
+    display: none;
+  }
 
-.info {
-    margin-top: 50px;
+footer {
+    background-color: #23272a;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
 }
+
+footer p {
+    margin: 0;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Search bar styling */
+.input-inset {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: transparent;
+    border: 1px solid #84a2fa;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    width: 250px;
+}
+
+.input-inset::placeholder {
+    color: #7289da;
+}
+
+.input-inset:focus {
+    outline: none;
+    border-color: #7289da;
+    background-color: #3a3d42;
+}
+
