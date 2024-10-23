@@ -100,3 +100,4 @@ console.warn("Nunu podía silenciar a los alborotadores, organizar roles con pre
 console.warn("Un día, Nunu recibió una actualización que cambiaría su vida para siempre. Ahora, podía enviar transcripciones detalladas de tickets de soporte, ayudar a los administradores a resolver problemas rápidamente, y hasta recordar cuánto tiempo faltaba para que los usuarios recuperaran su voz tras un mute temporal. Con cada mejora, sentía que estaba más cerca de su sueño de unir a los servidores en una experiencia perfecta.")
 
 console.warn("Y esa es la historia de Nunu, el bot que nació de la nieve eterna para traer orden y armonía a los servidores de Discord.")
+
