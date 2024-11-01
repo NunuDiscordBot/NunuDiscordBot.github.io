@@ -69,16 +69,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-.info {
-    background-color: #23272a;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.info p {
-    margin: 0;
-}
 
 .container {
     background-color: #23272a;
@@ -130,20 +120,6 @@ td button:hover {
     display: none;
   }
 
-footer {
-    background-color: #23272a;
-    padding: 10px 0;
-    width: 100%;
-    text-align: center;
-    bottom: 0;
-}
-
-footer p {
-    margin: 0;
-    color: white;
-    font-size: 0.9rem;
-}
-
 /* Search bar styling */
 .input-inset {
     font-size: 16px;
@@ -184,3 +160,46 @@ footer p {
     align-content: center;
     text-align: center;
  }
+
+ /* FOOTER */
+ 
+/* footer {
+    background-color: #23272a;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+    font-size: 0.9rem;
+} */
+
+
+footer {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background:#23272a;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    }
+
+    ul{
+      list-style:none;    
+    } 
+
+    .space{
+      margin-top:10px;
+    }
+    
+  @media screen and (max-width:1200px){
+    footer{ 
+         display:flex;
+         flex-direction:column !important;
+      }
+    } 
