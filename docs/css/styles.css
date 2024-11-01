@@ -9,6 +9,7 @@ body {
     background-color: #2c2f33; /* Fondo oscuro */
     color: #ffffff; /* Texto blanco */
     line-height: 1.6;
+    min-height: 100vh; 
 }
 
 header {
@@ -49,7 +50,13 @@ h1 {
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 main {
+    flex: 1;
     width: 100%;
     max-width: 1200px;
     margin: 40px auto;
@@ -146,11 +153,13 @@ footer p {
     border-radius: 30px;
     padding: 10px 20px;
     color: white;
-    width: 250px;
+    width: 279px;
+    margin-right: 20px;
 }
 
 .input-inset::placeholder {
     color: #7289da;
+
 }
 
 .input-inset:focus {
@@ -159,3 +168,19 @@ footer p {
     background-color: #3a3d42;
 }
 
+/* CREATE TEAMS */
+.teams-output {
+    margin-top: 20px;
+    color: #ffffff;
+}
+.teams-output p {
+    margin: 5px 0;
+}
+ h3 {
+    color: #84a2fa;
+ }
+ .card {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+ }

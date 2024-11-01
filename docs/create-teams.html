@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pome">
+    <title>Nunu Bot para Discord | Herramienta para Crear Equipos</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/974e75b81c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="header-container">
+                <a href="https://nunudiscordbot.github.io/"><h1>Nunu Bot</h1></a>
+                
+                <a href="" class="invite-button">Invitar</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Crear Equipos</h2>
+            <div class="container ">
+                <div class="card shadow my-5">
+                    <div class="card-body">
+                        <form id="teamForm" >
+                            <input class="input-inset form-control" id="namesInput" type="text" placeholder="Ingresa nombres separados por comas">
+                            <select id="teamSize" class="input-inset form-control">
+                                <option value="2">Equipos de 2</option>
+                                <option value="3">Equipos de 3</option>
+                                <option value="5">Equipos de 5</option>
+                            </select>
+                            <button type="button" onclick="createTeams()" class="invite-button">Generar Equipos</button>
+                        </form>
+                        <div id="teamsOutput" class="teams-output"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Nunu Bot | Creado por Pome</p>
+    </footer>
+
+    <script src="./js/create-teams.js"></script>
+</body>
+</html>
