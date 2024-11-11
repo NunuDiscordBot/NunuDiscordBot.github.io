@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pome" />
+
+    <!-- HTML Meta Tags -->
+    <title>Nunu Bot para Discord | Diccionario de League of Legends</title>
+    <meta
+      name="description"
+      content="Descubre Nunu Bot, el mejor aliado para automatizar y gestionar tu servidor de Discord con comandos útiles. ¡Invítalo ahora!. Descubre más sobre este bot y cómo puede mejorar tu experiencia en Discord."
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://nunudiscordbot.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Nunu Bot para Discord | Herramientas Automatizadas y Comandos para Gestionar Servidores"
+    />
+    <meta
+      property="og:description"
+      content="Descubre Nunu Bot, el mejor aliado para automatizar y gestionar tu servidor de Discord con comandos útiles. ¡Invítalo ahora!"
+    />
+    <meta
+      property="og:image"
+      content="https://nunudiscordbot.github.io/assets/images/Open_Graph.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="nunudiscordbot.github.io" />
+    <meta property="twitter:url" content="https://nunudiscordbot.github.io/" />
+    <meta
+      name="twitter:title"
+      content="Nunu Bot | Herramientas y Comandos para Servidores"
+    />
+    <meta
+      name="twitter:description"
+      content="Nunu Bot te ayuda a gestionar tu servidor con comandos útiles y herramientas automatizadas."
+    />
+    <meta
+      name="twitter:image"
+      content="https://nunudiscordbot.github.io/assets/images/Open_Graph.png"
+    />
+
+    <!-- Meta Tags -->
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./assets/images/logo.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/974e75b81c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="header-container">
+          <a href=""><h1>Nunu Bot</h1></a>
+          <a
+            href="https://nunudiscordbot.github.io/proximamente"
+            class="invite-button"
+            >Invitar</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Diccionario de League of Legends</h2>
+        <div class="container">
+          <div class="card shadow my-5">
+            <div class="card-body">
+              <form class="mb-3" id="searchForm">
+                <input
+                  class="input-inset form-control"
+                  id="searchBox"
+                  name="searchBox"
+                  type="text"
+                  placeholder="Search Command"
+                />
+                <small class="form-text feedback"></small>
+              </form>
+              <table
+                class="table table-searchable table-striped table-bordered table-hover table-responsive"
+              >
+                <thead>
+                  <tr>
+                    <th>Palabra</th>
+                    <th>Significado</th>
+                  </tr>
+                </thead>
+                <tbody id="command-table-body">
+                  <!-- Aquí se insertarán dinámicamente los comandos -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <ul>
+        <li><h2>About</h2></li>
+        <p>
+          Nunu Bot está diseñado para ayudarte con la gestión de tu servidor de
+          Discord. <br />
+          Ofrecemos comandos útiles que facilitan la automatización de tareas y
+          mejoran <br />
+          la experiencia del usuario. <br />
+          Invita a este bot a tu servidor haciendo clic
+          <a href="https://nunudiscordbot.github.io/proximamente">aquí</a>.
+        </p>
+      </ul>
+      <ul>
+        <li><h2>Resources</h2></li>
+        <li>
+          <a href="https://nunudiscordbot.github.io/create-teams"
+            >Create Teams Tool</a
+          >
+        </li>
+        <!-- <li>Help Center</li>
+      <li>Release Note</li>
+      <li>Status</li> -->
+      </ul>
+      <ul>
+        <li><h2>Community</h2></li>
+        <li>
+          <a href="https://nunudiscordbot.github.io/proximamente">Discord</a>
+        </li>
+      </ul>
+      <!-- <ul>
+      <li><h2>Community</h2></li>
+      <li>Twitter</li>
+      <li>Linkedin</li>
+      <li>Facebook</li>
+      <li>Instagram</li>
+    </ul> -->
+    </footer>
+
+    <script src="./js/diccionario.js"></script>
+    <!-- Archivo JavaScript separado -->
+  </body>
+</html>
