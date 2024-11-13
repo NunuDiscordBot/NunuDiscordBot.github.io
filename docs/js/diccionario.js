@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("searchForm"); // Usamos el ID del formulario directamente
   const searchBox = document.getElementById("searchBox");
   const feedback = document.querySelector(".feedback");
-  const tableBody = document.getElementById("command-table-body");
+  const tableBody = document.getElementById("word-table-body");
 
   // Búsqueda en la tabla
   searchBox.addEventListener("input", (e) => {
@@ -43,11 +43,11 @@ document.addEventListener("DOMContentLoaded", () => {
       return response.json();
     })
     .then((data) => {
-      data.forEach((command) => {
+      data.forEach((word) => {
         const row = document.createElement("tr");
         row.innerHTML = `
-            <td>${command.command}</td>
-            <td>${command.description}</td>
+            <td>${word.word}</td>
+            <td>${word.description}</td>
           `;
         tableBody.appendChild(row);
       });

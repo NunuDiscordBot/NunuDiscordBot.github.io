@@ -1,242 +1,494 @@
 [
   {
-    "command": "AA",
+    "word": "AA",
     "description": "Auto ataque."
   },
   {
-    "command": "Ace",
+    "word": "Ace",
     "description": "Significa que todos los enemigos han muerto, y esperan para renacer."
   },
   {
-    "command": "AD",
+    "word": "AD",
     "description": "Attack Damage, daño de ataque."
   },
   {
-    "command": "ADC",
+    "word": "ADC",
     "description": "Attack Damage Carry, es un campeón tirador que logra hacer el mayor daño en el menor tiempo."
   },
   {
-    "command": "AFK",
+    "word": "AFK",
     "description": "Away From Keybord, ausente del teclado."
   },
   {
-    "command": "AOE",
+    "word": "AOE",
     "description": "Area of Effect, es una habilidad capaz de golpear un área o zona en lugar de un solo objetivo."
   },
   {
-    "command": "AP",
+    "word": "AP",
     "description": "Ability Power, atributo que mejora la efectividad de algunas habilidades."
   },
   {
-    "command": "ARAM",
+    "word": "ARAM",
     "description": "All Ramdom, All Mid, otro tipo de juego diferente en el que todos los campeones se enfrentan en un solo carril."
   },
   {
-    "command": "Asesino",
+    "word": "Asesino",
     "description": "los hay AP (Ability Power, se asocia a los que van a poder de habilidad, es decir, magos) y AD (Attack Damage, de daño de ataque), también hacen daño masivo a un único rival, pero son muy débiles."
   },
   {
-    "command": "Aspectos",
+    "word": "Aspectos",
     "description": "Son las skins o aspectos de los campeones."
   },
   {
-    "command": "Aura",
+    "word": "Aura",
     "description": "Una pasiva que no solo afecta al héroe que la lleva, sino también a héroes en su rango."
   },
   {
-    "command": "Baby Sitting",
+    "word": "Baby Sitting",
     "description": "Hacer de niñera, cuidar al carry del equipo en early game para ayudarle a conseguir oro y experiencia rápidamente."
   },
   {
-    "command": "BD o Backdoor",
+    "word": "BD o Backdoor",
     "description": "Estrategia que consiste en aprovechar la debilidad defensiva de un ataque del grupo enemigo para destruir una torre enemiga."
   },
   {
-    "command": "Bait",
+    "word": "Bait",
     "description": "Hacer de cebo o carnada para el enemigo."
   },
   {
-    "command": "Ban o Baneado",
+    "word": "Ban o Baneado",
     "description": "se refiere a la acción de prohibir a algunos jugadores entrar al juego durante un tiempo variable por conducta inapropiada."
   },
   {
-    "command": "BG",
+    "word": "BG",
     "description": "Bad Game, mala partida."
   },
   {
-    "command": "Blue",
+    "word": "Blue",
     "description": "Mejora que se consigue al matar al Blue Sentinel."
   },
   {
-    "command": "Bot",
+    "word": "Bot",
     "description": "Camino inferior del mapa, donde juegan el AD Carry y el Support."
   },
   {
-    "command": "BRB",
+    "word": "BRB",
     "description": "Be Right Back o ahora vuelvo: te retiras a comprar o a curarte antes de morir en la batalla."
   },
   {
-    "command": "Build",
+    "word": "Build",
     "description": "Es el tipo de set completo del personaje: Full AP, Full Tank, etc. Tanto en maestrías como en objetos."
   },
   {
-    "command": "Buff",
+    "word": "Buff",
     "description": "Mejora temporal de estadísticas."
   },
   {
-    "command": "Burst",
+    "word": "Burst",
     "description": "Combinación de hechizos o habilidades capaz de infligir una gran cantidad de daño instantáneo."
   },
   {
-    "command": "Bush o Bushes",
+    "word": "Bush o Bushes",
     "description": "Los arbustos que causan que los campeones que estén dentro no sean vistos por campeones que estén afuera. "
   },
   {
-    "command": "Caster / Castear",
-    "description": ""
+    "word": "Caster / Castear",
+    "description": "Mago o personaje que tiene que canalizar sus hechizos, o que tarda un tiempo entre pulsar el botón y lanzarlo."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Carry AD",
+    "description": "Tipo de campeón al que se le llama así porque al principio de la partida lo tienen que llevar."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "CC",
+    "description": "Habilidades de control de zona o personajes."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Champion (Campeón)",
+    "description": "Es el personaje que controlas como Invocador."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Chase",
+    "description": "Perseguir al rival hasta matarlo."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Comp",
+    "description": "Se refiere a la sinergia de la composición de los campeones de un determinado equipo que tienen juntos."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Cool Down / Enfriamiento (CD)",
+    "description": "Es el tiempo entre el uso repetido de habilidades."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Counterpick",
+    "description": "Escoger el campeón que contrarresta otro escogido por el enemigo"
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Crowd Control",
+    "description": "Movimientos que interfieren en las acciones de otro campeón."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "CS",
+    "description": "Los súbditos que llevas muertos."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "CV",
+    "description": "Clarividencia, un hechizo de los campeones."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "DD / Direct Damage Ability / Habilidad de Daño Directo",
+    "description": "habilidades que no se pueden esquivar."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Disable",
+    "description": "Son los hechizos que previenen a los campeones de hacer cualquier acción."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "DOT",
+    "description": "Damage Over Time (daño con el tiempo)."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "DPS",
+    "description": "Damage Per second (daño por Segundo)."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Dodge",
+    "description": "Esquivar."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Dragón",
+    "description": "Es el dragón del mapa, da 190 de oro al equipo al matarlo."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "DEF",
+    "description": "Que se defienda algún punto exacto del mapa."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Dive o Divear",
+    "description": "Atacar bajo la torre, aún recibiendo el daño de ésta, se considera una jugada arriesgada."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Engage",
+    "description": "Enredarse en una lucha."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "ELO",
+    "description": "Sistema de puntuación que mide la habilidad relativa dentro de League of Legends."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Executed",
+    "description": "Asesinado por una torreta o minion sin que ningún héroe se lleve la muerte."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Exhaust",
+    "description": "Extenuación o exhausto."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "EZ",
+    "description": "Forma irónica se utiliza para hacerle saber al enemigo que ha sido fácil acabar con él."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Farm o Farmear",
+    "description": "Es conseguir gran cantidad de oro."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Feed",
+    "description": "Un jugador alimentado, uno que está matando muchos jugadores enemigos."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Fedear o Feeder",
+    "description": "Cuando un compañero de equipo o rival muere una y otra vez."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "First blood",
+    "description": "Es obtener la primera baja del juego."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "First pick",
+    "description": "Se refiere a ser el primero en elegir un campeón en modo reclutamiento o modo torneo, en la selección de campeones."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Flame",
+    "description": "Se refiere al momento en el que un jugador o varios empiezan a abusar y agredir por escrito a otro jugador."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Focus",
+    "description": "Aviso a todo el equipo para que ataquen al mismo personaje."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Grass",
+    "description": "Ir a mirar la hierba."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "GG",
+    "description": "Good Game, cuando te ha  ido bien la partida ya sea ganada o perdida."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "Gank o Gankear",
+    "description": "Emboscar a alguien para eliminarlo con ayuda de tus compañeros."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "GJ",
+    "description": "Una felicitación para el equipo o algún compañero."
   },
   {
-    "command": "",
-    "description": ""
+    "word": "GL",
+    "description": "Buena suerte, el deseo de todos antes de la partida. "
   },
   {
-    "command": "",
+    "word": "Harass",
+    "description": "Molestar al enemigo dañándole poco a poco."
+  },
+  {
+    "word": "Héroe",
+    "description": "Se refiere casi siempre a los campeones."
+  },
+  {
+    "word": "HF",
+    "description": "Have Fun, expresión que significa ´diviértanse´."
+  },
+  {
+    "word": "Humiliation",
+    "description": "Asesinado por un súbdito."
+  },
+  {
+    "word": "IAS",
+    "description": "Increased Attack Speed (Velocidad de Ataque Incrementada)"
+  },
+  {
+    "word": "Ignite",
+    "description": "Prender. Hechizo de invocador. ignición."
+  },
+  {
+    "word": "Juke o Juking",
+    "description": "El juking se usa para atontar a tus enemigos. Normalmente ocurre en la jungla."
+  },
+  {
+    "word": "Jungle",
+    "description": "Atacar a súbditos en la jungla."
+  },
+  {
+    "word": "KK",
+    "description": "Lo mismo que OK dentro del juego."
+  },
+  {
+    "word": "KS",
+    "description": "Kill Steal o robar una muerte."
+  },
+  {
+    "word": "Lane o Línea",
+    "description": "Es la línea de juego de tu campeón."
+  },
+  {
+    "word": "Lane swap",
+    "description": "cuando un jugador cambia de línea ya sea por buenos o malos resultados."
+  },
+  {
+    "word": "Last Hit",
+    "description": "Dar el último golpe."
+  },
+  {
+    "word": "Leaver",
+    "description": "Jugador que sale durante una partida."
+  },
+  {
+    "word": "LVL",
+    "description": "Nivel del invocador."
+  },
+  {
+    "word": "L2P",
+    "description": "Aprende a jugar, se usa de manera despectiva."
+  },
+  {
+    "word": "Maestrías",
+    "description": "Son una lista de talentos que se dividen en tres ramas: Ataque, Defensa y Salud/Maná."
+  },
+  {
+    "word": "Mid",
+    "description": "Camino de la línea central."
+  },
+  {
+    "word": "Minion",
+    "description": "Así se le llama también a los súbditos."
+  },
+  {
+    "word": "MR",
+    "description": "Magic Resist, es una protección contra ataques mágicos."
+  },
+  {
+    "word": "MS",
+    "description": "Movement Speed, velocidad de movimiento del campeón. | También puede hacer referencia al PING en el juego."
+  },
+  {
+    "word": "Nashor / Barón",
+    "description": "Es un gusano gigante que se encuentra en la grieta del invocador. "
+  },
+  {
+    "word": "Neutrals",
+    "description": "Son los súbditos que están en la jungla."
+  },
+  {
+    "word": "Neuts",
+    "description": "Neutrals."
+  },
+  {
+    "word": "Newbie",
+    "description": "Novato sin mal sentido."
+  },
+  {
+    "word": "NL o Nice One",
+    "description": "Buena acción o buen acto."
+  },
+  {
+    "word": "NVM",
+    "description": "Nevermind. Una forma de disculpar a un compañero."
+  },
+  {
+    "word": "Noob",
+    "description": "Novato, pero en sentido despectivo. "
+  },
+  {
+    "word": "NP",
+    "description": "Sin problema. "
+  },
+  {
+    "word": "OMW",
+    "description": "Expresión de voy en camino, se indica también con el cursor."
+  },
+  {
+    "word": "OOM",
+    "description": "Out of Mana, el jugador se ha quedado sin maná."
+  },
+  {
+    "word": "OP / Over Power",
+    "description": "Puede referirse a un campeón, runa u objeto, el cual se encuentra mejorado o con muy buenas estadísticas."
+  },
+  {
+    "word": "Oracle",
+    "description": "Es una poción que se compra en la tienda y que permite ver a los campeones enemigos "
+  },
+  {
+    "word": "Passive / Pasiva",
+    "description": "Una habilidad que no se activa. puede ser del campeón o de un item."
+  },
+  {
+    "word": "Proc",
+    "description": "Se refiere al arma, objeto o habilidad que se activan con posibilidad de golpear."
+  },
+  {
+    "word": "Pull",
+    "description": "Pedir ayuda para matar al Golem Antiguo o al Lagarto Anciano."
+  },
+  {
+    "word": "Pokeo o Pokear",
+    "description": "Hacer daño a distancia a los rivales"
+  },
+  {
+    "word": "Push",
+    "description": "Eliminar a los súbditos enemigos de una línea rápidamente."
+  },
+  {
+    "word": "Qualify / Clasificatorias",
+    "description": "Cuando llegas al nivel 30 y puedes jugar las diez partidas que te pondrán en una liga."
+  },
+  {
+    "word": "Re",
+    "description": "Cuando recuperas el contacto visual con un enemigo que había desaparecido del mapa."
+  },
+  {
+    "word": "Red",
+    "description": "Es la mejora que se consigue al matar al Lagarto Anciano."
+  },
+  {
+    "word": "Root",
+    "description": "efecto negativo que previene que un campeón pueda moverse."
+  },
+  {
+    "word": "Runas",
+    "description": "Objeto que se usa para personalizar el personaje."
+  },
+  {
+    "word": "Silence",
+    "description": "Previene al campeón usar habilidades."
+  },
+  {
+    "word": "Skillshot",
+    "description": "Habilidad que dispara un proyectil que puede ser esquivado."
+  },
+  {
+    "word": "Snowball",
+    "description": "Cuando aumenta el poder con muertes u oro. Haciendo que cada vez tengas mas poder."
+  },
+  {
+    "word": "SS",
+    "description": "Sirve para avisar al equipo que un campeón enemigo ha desaparecido."
+  },
+  {
+    "word": "Stun",
+    "description": "Efecto que no deja al campeón usar una acción."
+  },
+  {
+    "word": "Summoner o Invocador",
+    "description": "Cuenta del usuario"
+  },
+  {
+    "word": "Support",
+    "description": "Campeón que va al carril inferior y ayuda al AD Carry "
+  },
+  {
+    "word": "Surrender",
+    "description": "Rendirse en el juego."
+  },
+  {
+    "word": "Tank",
+    "description": "Campeones que son capaces de resistir muchos golpes."
+  },
+  {
+    "word": "TeamPlay",
+    "description": "Juego en equipo."
+  },
+  {
+    "word": "TeamFight o TF",
+    "description": "Pelea en equipo."
+  },
+  {
+    "word": "Taunt",
+    "description": "Primer golpe que se le da a un enemigo para llamar su atención."
+  },
+  {
+    "word": "Torret Hugging, Turret Hug o Thug",
+    "description": "Defender la torre debajo de ella."
+  },
+  {
+    "word": "Top",
+    "description": "Es el camino superior en el mapa."
+  },
+  {
+    "word": "TP o Teleport",
+    "description": "Hechizo que permite teletransportarse."
+  },
+  {
+    "word": "TY",
+    "description": "Abreviatura para dar gracias."
+  },
+  {
+    "word": "Ultimate o Ulti",
+    "description": "Habilidad definitiva. "
+  },
+  {
+    "word": "Ward",
+    "description": "Son los tótems que se compran en la tienda."
+  },
+  {
+    "word": "Wave",
+    "description": "Un grupo de súbditos que avanza en grupo."
+  },
+  {
+    "word": "WTF",
+    "description": "expresión de asombro."
+  },
+  {
+    "word": "",
     "description": ""
   }
 ]

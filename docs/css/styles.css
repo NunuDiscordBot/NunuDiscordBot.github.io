@@ -100,6 +100,8 @@ th {
 td {
     background-color: #3a3d42;
     color: #ffffff;
+    
+    border-bottom: 1px solid #23272a;
 }
 
 td button {
