@@ -5,15 +5,15 @@
   },
   {
     "word": "Ace",
-    "description": "Significa que todos los enemigos han muerto, y esperan para renacer."
+    "description": "Significa que todos los enemigos han muerto."
   },
   {
     "word": "AD",
-    "description": "Attack Damage, daño de ataque."
+    "description": "Attack Damage, daño de ataque, daño físico"
   },
   {
     "word": "ADC",
-    "description": "Attack Damage Carry, es un campeón tirador que logra hacer el mayor daño en el menor tiempo."
+    "description": "Attack Damage Carry, Se le suele llamar asi al tirador que va a la linea inferior."
   },
   {
     "word": "AFK",
@@ -25,7 +25,7 @@
   },
   {
     "word": "AP",
-    "description": "Ability Power, atributo que mejora la efectividad de algunas habilidades."
+    "description": "Ability Power, daño de habilidades, daño mágico."
   },
   {
     "word": "ARAM",
@@ -33,7 +33,7 @@
   },
   {
     "word": "Asesino",
-    "description": "los hay AP (Ability Power, se asocia a los que van a poder de habilidad, es decir, magos) y AD (Attack Damage, de daño de ataque), también hacen daño masivo a un único rival, pero son muy débiles."
+    "description": "los hay AP y AD, también hacen daño masivo a un único rival, pero son muy frágiles."
   },
   {
     "word": "Aspectos",
@@ -41,7 +41,7 @@
   },
   {
     "word": "Aura",
-    "description": "Una pasiva que no solo afecta al héroe que la lleva, sino también a héroes en su rango."
+    "description": "Una pasiva que no solo afecta al campeón que la lleva, sino también a campeones en su rango."
   },
   {
     "word": "Baby Sitting",
@@ -49,7 +49,7 @@
   },
   {
     "word": "BD o Backdoor",
-    "description": "Estrategia que consiste en aprovechar la debilidad defensiva de un ataque del grupo enemigo para destruir una torre enemiga."
+    "description": "Estrategia que consiste en llegar a la base enemiga para tirar el nexo, sin que se den cuenta."
   },
   {
     "word": "Bait",
@@ -57,7 +57,7 @@
   },
   {
     "word": "Ban o Baneado",
-    "description": "se refiere a la acción de prohibir a algunos jugadores entrar al juego durante un tiempo variable por conducta inapropiada."
+    "description": "es la suspension o el castigo que recibe un jugador por algo que ha hecho. También puede referirse a prohibir campeones para que no estén en la partida."
   },
   {
     "word": "BG",
@@ -73,11 +73,11 @@
   },
   {
     "word": "BRB",
-    "description": "Be Right Back o ahora vuelvo: te retiras a comprar o a curarte antes de morir en la batalla."
+    "description": "Be Right Back o ahora vuelvo."
   },
   {
     "word": "Build",
-    "description": "Es el tipo de set completo del personaje: Full AP, Full Tank, etc. Tanto en maestrías como en objetos."
+    "description": "Es el tipo de set completo del personaje. Tanto en maestrías como en objetos."
   },
   {
     "word": "Buff",
@@ -89,19 +89,23 @@
   },
   {
     "word": "Bush o Bushes",
-    "description": "Los arbustos que causan que los campeones que estén dentro no sean vistos por campeones que estén afuera. "
+    "description": "Los arbustos que están en los diferentes mapas del juego.  "
   },
   {
-    "word": "Caster / Castear",
+    "word": "Caster",
     "description": "Mago o personaje que tiene que canalizar sus hechizos, o que tarda un tiempo entre pulsar el botón y lanzarlo."
   },
   {
+    "word": "Castear",
+    "description": "Puede referirse a la acción de utilizar una habilidad. O también puede referirse a la acción de transmitir la emoción del juego a los espectadores."
+  },
+  {
     "word": "Carry AD",
-    "description": "Tipo de campeón al que se le llama así porque al principio de la partida lo tienen que llevar."
+    "description": "Es el campeón que en la partida debería ser el que mas daño físico haga."
   },
   {
     "word": "CC",
-    "description": "Habilidades de control de zona o personajes."
+    "description": "Habilidad o efecto que modifica los estados de los campeones."
   },
   {
     "word": "Champion (Campeón)",
@@ -117,11 +121,11 @@
   },
   {
     "word": "Cool Down / Enfriamiento (CD)",
-    "description": "Es el tiempo entre el uso repetido de habilidades."
+    "description": "Es el tiempo entre el uso de habilidades."
   },
   {
     "word": "Counterpick",
-    "description": "Escoger el campeón que contrarresta otro escogido por el enemigo"
+    "description": "Escoger el campeón que contrarresta otro escogido por el enemigo."
   },
   {
     "word": "Crowd Control",
@@ -129,7 +133,7 @@
   },
   {
     "word": "CS",
-    "description": "Los súbditos que llevas muertos."
+    "description": "la cantidad de súbditos que llevas."
   },
   {
     "word": "CV",
