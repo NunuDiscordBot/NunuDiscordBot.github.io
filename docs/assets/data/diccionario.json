@@ -140,14 +140,6 @@
     "description": "Clarividencia, un hechizo de los campeones."
   },
   {
-    "word": "DD / Direct Damage Ability / Habilidad de Daño Directo",
-    "description": "habilidades que no se pueden esquivar."
-  },
-  {
-    "word": "Disable",
-    "description": "Son los hechizos que previenen a los campeones de hacer cualquier acción."
-  },
-  {
     "word": "DOT",
     "description": "Damage Over Time (daño con el tiempo)."
   },
@@ -173,7 +165,7 @@
   },
   {
     "word": "Engage",
-    "description": "Enredarse en una lucha."
+    "description": "forzar el inicio de una pelea."
   },
   {
     "word": "ELO",
@@ -201,11 +193,11 @@
   },
   {
     "word": "Fedear o Feeder",
-    "description": "Cuando un compañero de equipo o rival muere una y otra vez."
+    "description": "Cuando un compañero de equipo o rival muere una y otra vez, dando oro y experiencia al rival o rivales."
   },
   {
     "word": "First blood",
-    "description": "Es obtener la primera baja del juego."
+    "description": "Es la primera baja del juego."
   },
   {
     "word": "First pick",
@@ -221,11 +213,11 @@
   },
   {
     "word": "Grass",
-    "description": "Ir a mirar la hierba."
+    "description": "La hierba."
   },
   {
     "word": "GG",
-    "description": "Good Game, cuando te ha  ido bien la partida ya sea ganada o perdida."
+    "description": "Good Game, indicador de que fue una buena partida."
   },
   {
     "word": "Gank o Gankear",
@@ -233,11 +225,11 @@
   },
   {
     "word": "GJ",
-    "description": "Una felicitación para el equipo o algún compañero."
+    "description": "Good Job, una felicitación para el equipo o algún compañero."
   },
   {
     "word": "GL",
-    "description": "Buena suerte, el deseo de todos antes de la partida. "
+    "description": "Buena suerte."
   },
   {
     "word": "Harass",
@@ -264,12 +256,8 @@
     "description": "Prender. Hechizo de invocador. ignición."
   },
   {
-    "word": "Juke o Juking",
-    "description": "El juking se usa para atontar a tus enemigos. Normalmente ocurre en la jungla."
-  },
-  {
     "word": "Jungle",
-    "description": "Atacar a súbditos en la jungla."
+    "description": "Zona del mapa donde se encuentran diferentes monstruos."
   },
   {
     "word": "KK",
@@ -285,7 +273,7 @@
   },
   {
     "word": "Lane swap",
-    "description": "cuando un jugador cambia de línea ya sea por buenos o malos resultados."
+    "description": "cuando se intercambian lineas entre un equipo."
   },
   {
     "word": "Last Hit",
@@ -302,10 +290,6 @@
   {
     "word": "L2P",
     "description": "Aprende a jugar, se usa de manera despectiva."
-  },
-  {
-    "word": "Maestrías",
-    "description": "Son una lista de talentos que se dividen en tres ramas: Ataque, Defensa y Salud/Maná."
   },
   {
     "word": "Mid",
@@ -332,10 +316,6 @@
     "description": "Son los súbditos que están en la jungla."
   },
   {
-    "word": "Neuts",
-    "description": "Neutrals."
-  },
-  {
     "word": "Newbie",
     "description": "Novato sin mal sentido."
   },
@@ -353,7 +333,7 @@
   },
   {
     "word": "NP",
-    "description": "Sin problema. "
+    "description": "Sin problema."
   },
   {
     "word": "OMW",
@@ -369,7 +349,7 @@
   },
   {
     "word": "Oracle",
-    "description": "Es una poción que se compra en la tienda y que permite ver a los campeones enemigos "
+    "description": "Es una poción que se compra en la tienda y que permite ver a los campeones enemigos."
   },
   {
     "word": "Passive / Pasiva",
@@ -381,7 +361,7 @@
   },
   {
     "word": "Pull",
-    "description": "Pedir ayuda para matar al Golem Antiguo o al Lagarto Anciano."
+    "description": "Pedir ayuda para matar al blue o al red."
   },
   {
     "word": "Pokeo o Pokear",
@@ -409,7 +389,7 @@
   },
   {
     "word": "Runas",
-    "description": "Objeto que se usa para personalizar el personaje."
+    "description": "mejora que el Invocador provee a sus campeones antes de una partida."
   },
   {
     "word": "Silence",
@@ -490,9 +470,5 @@
   {
     "word": "WTF",
     "description": "expresión de asombro."
-  },
-  {
-    "word": "",
-    "description": ""
   }
 ]
