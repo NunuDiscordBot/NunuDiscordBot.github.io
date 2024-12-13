@@ -53,5 +53,25 @@
         "command": "n!random",
         "description": "Elije un campeon aleatorio, runas aleatorias y una linea aleatoria.",
         "usage": "n!random"
+    },
+    {
+        "command": "n!create-teams",
+        "description": "Inicia el reclutamiento para formar equipos.",
+        "usage": "n!create-teams"
+    },
+    {
+        "command": "n!matchhistory",
+        "description": "Muestra un historial de partidas de League of Legends con paginación.",
+        "usage": "n!matchhistory NICK#1234"
+    },
+    {
+        "command": "n!parche",
+        "description": "Muestra las notas del parche más reciente de League of Legends.",
+        "usage": "n!parche"
+    },
+    {
+        "command": "n!skin",
+        "description": "Muestra las skins de un campeón de League of Legends.",
+        "usage": "n!skin"
     }
 ]
